@@ -24,10 +24,10 @@ def update_chart(D):
     fig3.update_layout(
     autosize=False,
     width=1000,
-    height=400)
+    height=600)
     
     np.random.seed(0)
-    N_range = np.arange(100,1000,10)
+    N_range = np.arange(50,500,50)
     
     train_loss = []
     test_loss = []
