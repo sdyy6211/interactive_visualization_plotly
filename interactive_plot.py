@@ -15,7 +15,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.datasets import make_classification
 from sklearn.linear_model import LogisticRegression
 
-app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP],suppress_callback_exceptions = True)
 
 SIDEBAR_STYLE = {
     "position": "fixed",
