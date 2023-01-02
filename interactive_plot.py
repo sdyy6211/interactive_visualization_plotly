@@ -842,4 +842,4 @@ def render_page_content(pathname):
     )
 
 if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=False)
+    app.run_server()
