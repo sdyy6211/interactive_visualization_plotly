@@ -46,7 +46,7 @@ sidebar = html.Div(
             [
                 dbc.NavLink("Home", href="/", active="exact"),
                 dbc.NavLink("Gradient Descent", href="/page-1", active="exact"),
-                dbc.NavLink("Multivariate Regression", href="/page-2", active="exact"),
+                dbc.NavLink("Polynomial Regression", href="/page-2", active="exact"),
                 dbc.NavLink("Learning Curve", href="/page-3", active="exact"),
                 dbc.NavLink("Logistic Regression - Fitting", href="/page-4", active="exact"),
                 dbc.NavLink("Logistic Regression - Tuning", href="/page-5", active="exact"),
